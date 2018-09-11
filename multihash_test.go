@@ -269,7 +269,7 @@ func TestHex(t *testing.T) {
 	}
 }
 func TestDecodeErrorInvalid(t *testing.T) {
-	_, err := FromB58String("/ipfs/QmQTw94j68Dgakgtfd45bG3TZG6CAfc427UVRH4mugg4q4")
+	_, err := FromB58String("/dms3fs/QmQTw94j68Dgakgtfd45bG3TZG6CAfc427UVRH4mugg4q4")
 	if err != ErrInvalidMultihash {
 		t.Fatalf("expected: %s, got %s\n", ErrInvalidMultihash, err)
 	}

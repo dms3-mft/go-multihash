@@ -1,10 +1,10 @@
 {
   "author": "multiformats",
   "bugs": {
-    "url": "https://github.com/multiformats/go-multihash/issues"
+    "url": "https://github.com/dms3-mft/go-multihash/issues"
   },
   "gx": {
-    "dvcsimport": "github.com/multiformats/go-multihash"
+    "dvcsimport": "github.com/dms3-mft/go-multihash"
   },
   "gxDependencies": [
     {
@@ -51,4 +51,3 @@
   "releaseCmd": "git commit -a -m \"gx release $VERSION\"",
   "version": "1.0.8"
 }
-

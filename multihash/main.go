@@ -6,8 +6,8 @@ import (
 	"io"
 	"os"
 
-	mh "github.com/multiformats/go-multihash"
-	mhopts "github.com/multiformats/go-multihash/opts"
+	mh "github.com/dms3-mft/go-multihash"
+	mhopts "github.com/dms3-mft/go-multihash/opts"
 )
 
 var usage = `usage: %s [options] [FILE]
